@@ -18,15 +18,15 @@ geometry: margin=1in
 
 ## Тип сокровищ
 
-| Тип         | 1,000 мм  | 1,000 см   | 1,000 зм      | Драг. камни и юв. изделия\* | Карты или магические предметы                        | 
-|----------- |-------- |--------- |------------ |--------------------------- |---------------------------------------------------- |
+| Тип         | 1,000 мм | 1,000 см  | 1,000 зм     | Драг. камни и юв. изделия\* | Карты или магические предметы                        |
+| ----------- | -------- | --------- | ------------ | --------------------------- | ---------------------------------------------------- |
 | A (земля)   | к6: 25%  | к6: 30%   | 2к6: 35%     | 6к6: 50%                    | 40%: любые 3                                         |
 | A (пустыня) | к4: 20%  | к4: 25%   | к6: 30%      | к4 x 10: 50%                | 60%: 3 магических предмета                           |
 | A (вода)    | -        | -         | 5к6: 60%     | к6 x 10: 60%                | 50%: 1 карта                                         |
 | B           | к8: 50%  | к6: 25%   | к3: 25%      | к6: 25%                     | 10%: оружие, доспех или прочее оружие                |
 | C           | к12: 20% | к4: 30%   | -            | к4: 25%                     | 10%: любые 2                                         |
 | D           | к8: 10%  | к12: 15%  | к6: 60%      | к8: 30%                     | 20%: любые 2 + 1 зелье                               |
-| E           | к10: 5% | к12: 30%  | к8: 25%      | к10: 10%                    | 30%: любые 3 + 1 свиток                              |
+| E           | к10: 5%  | к12: 30%  | к8: 25%      | к10: 10%                    | 30%: любые 3 + 1 свиток                              |
 | F           | -        | 2к10: 10% | к12: 45%     | 2к12: 20%                   | 35%: без оружия, любые другие 3 + 1 зелье и 1 свиток |
 | G           | -        | -         | к4 x 10: 75% | 3к6: 25% / к10: 25%         | 40%: любые 4 + 1 свиток                              |
 | H           | 3к8: 25% | к100: 50% | к6 x 10: 75% | к100: 50% / к4 x 10: 50%    | 20%: любые 4 + 1 зелье и 1 свиток                    |
@@ -330,120 +330,129 @@ geometry: margin=1in
 
 #### Интеллект
 
-There are two factors considered under Intelligence: mental power and communicative ability. These factors are both determined by a single die roll:
+Показатель интеллекта отвечает сразу за два параметра: ментальную силу и коммуникативные способности.
 
-Intelligence (Die Roll) Mental Power Communicative Ability
-1–6 None endowed None*
-7 One Primary Power Empathy
-8 Two Primary Powers Empathy
-9 Three Primary Powers Empathy
-10 3 Primary and the ability to use Languages** Speech
-11 As 10 above but also Reads Magic Speech
-12 As 11 above but also has one Extraordinary Ability Telepathy
+| к12 Интеллекта | Ментальная сила                                        | Коммуникативные способности |
+| -------------- | ------------------------------------------------------ | --------------------------- |
+| 1--6           | Никакой не наделён                                     | Никаких*                    |
+| 7              | Одна основная сила                                     | Эмпатия                     |
+| 8              | Две основные силы                                      | Эмпатия                     |
+| 9              | Три основные силы                                      | Эмпатия                     |
+| 10             | 3 основные силы и знание языков\*\*                    | Речь                        |
+| 11             | Как №10, но вдобавок *чтение магии*                    | Речь                        |
+| 12             | Как №11, но также имеет 1 экстраординарную способность | Телепатия                   |
 
-\* Although the sword cannot communicate it will endow its user with the powers it has, but these will have to be discovered by the user.  
-\*\* The number of languages, in addition to the language of the alignment of the sword, is determined by a dice roll.
+\* Хотя меч не может общаться, он наделяет своего пользователя способностями, которыми обладает, но они должны быть обнаружены самим пользователем.  
+\*\* В дополнение к языку мировоззрения меча определите кол-во языков, которые знает меч, броском к100 по таблице ниже.
 
-Dice Roll Primary Powers
-1–15 Note Shifting Walls & Rooms
-16–30 Detect Sloping Passages
-31–40 Locate Secret Doors
-41–50 Detect Traps
-51–60 See Invisible Objects
-61–70 Detect Evil and/or Gold
-71–80 Detect Meal & What Kind
-81–90 Detect Magic
-91–95 Detect Gems (# and Size)
-96–99 Take two rolls ignoring scores over 95 except a score of 100
-100 Roll on Extraordinary Ability Table instead of this one
+| к100  | Основная сила                                                |
+| ----- | ------------------------------------------------------------ |
+| 1–15  | Замечает смещение стен и комнат                              |
+| 16–30 | Замечает наклонные проходы                                   |
+| 31–40 | Находит секретные двери                                      |
+| 41–50 | Замечает ловушки                                             |
+| 51–60 | Видит невидимые объекты                                      |
+| 61–70 | Обнаруживает зло и/или золото                                |
+| 71–80 | Обнаруживает еду и её качество                               |
+| 81–90 | Обнаруживает магию                                           |
+| 91–95 | Обнаруживает драгоценные камни (количество и размер)         |
+| 96–99 | Бросьте дважды, игнорируя результаты выше 95 кроме 100       |
+| 100   | Бросьте по таблице экстраординарных способностей вместо этой | 
 
-Dice Roll Languages Spoken
-1–50 One
-51–70 Two
-71–85 Three
-86–95 Four
-96–99 Five
-100 Take two rolls ignoring 100 if rolled again
+| к100  | Количество языков             |
+| ----- | ----------------------------- |
+| 1–50  | Один                          |
+| 51–70 | Два                           |
+| 71–85 | Три                           |
+| 86–95 | Четыре                        |
+| 96–99 | Пять                          |
+| 100   | Бросьте дважды, игнорируя 100 | 
 
-Extraordinary Ability Table
-Die Roll Ability
-1–10 Clairaudience
-11–20 Clairvoyance
-21–30 ESP
-31–40 Telepathy
-41–50 Telekinesis
-51–59 Teleportation
-60–68 X-Ray Vision
-69–77 Illusion Generation
-78–82 Levitation
-83–87 Flying
-88–92 Healing (1 point/6 turns or 6 points/day)
-93–97 1–4 Times Normal Strength for 1–10 Turns Employable Once/Day
-98–99 Take Two Rolls Ignoring Scores over 97
-100 Take Three Rolls Ignoring Scores over 97
+| к100  | Экстраординарная способность                          |
+| ----- | ----------------------------------------------------- |
+| 1–10  | Яснослышание                                          |
+| 11–20 | Ясновидение                                           |
+| 21–30 | ЭСВ                                                   |
+| 31–40 | Телепатия                                             |
+| 41–50 | Телекинез                                             |
+| 51–59 | Телепортация                                          |
+| 60–68 | Рентгеновское зрение                                  |
+| 69–77 | Создание иллюзий                                      |
+| 78–82 | Левитация                                             |
+| 83–87 | Полёт                                                 |
+| 88–92 | Лечение (1 ОЗ/час или 6 ОЗ/день)                      |
+| 93–97 | Один раз в день увеличить силу в к4 раза на к10 ходов |
+| 98–99 | Бросьте дважды, игнорируя результаты выше 97          |
+| 100   | Бросьте трижды, игнорируя результаты выше 97          | 
 
-All Primary and Extraordinary functions are passed on to the sword user. Rolling the same Ability twice indicates it is twice normal strength, range, accuracy, etc.
+Все основные и экстраординарные способности передаются пользователю меча. Если какая-либо способность выпала дважды, увеличьте её силу, дальность, точность и т.п. в два раза.
 
 #### Эго
 
-Only those swords Intelligence of 7 or more will have an Egoism rating. Egoism ranges from 1–12, the higher the number the greater the Ego of the sword. The Egoism of the sword will cause it to do the following:
+Только мечи с интеллектом 7 и выше буду иметь эго. Показатель эго определяется броском к12. Эго меча будет заставлять его делать следующее:
 
-1. Lead its user past better weapons
-2. Lead its user into great danger in order to exalt its role in combat
-3. Allow itself to be captured by a higher-level creature/character which is closer to the sword’s station
-4. Surrender itself to a creature/character of a lower level in order to exercise greater control over its user
-5. Require a share of captured treasure be given to it in the form of better scabbards, jewel encrustation, or magical devices to guard it when not in use.
+1. Вести своего пользователя мимо более хорошего оружия
+2. Вести своего пользователя в большую опасность, чтобы возвысить его роль в бою
+3. Позволять захватывать себя существу/персонажу более высокого уровня, который ближе к нему по мировоззрению
+4. Сдаваться существу/персонажу меньшего уровня, чтобы осуществлять больший контроль над своим пользователем
+5. Требовать, чтобы ему была отдана доля захваченных сокровищ, например, лучшие ножны, инкрустация драгоценными камнями или магические приспособления для охраны, когда меч не используется
 
-Whenever any situation arises where any of the above possibilities exist, the Egoism of the sword comes into play. It is always exerted in its relationship with its user, although true rapport may be gained if the alignment and aims of the character/user coincide with the origin/purpose of the sword. The determination of each of these factors is as follows:
+Всякий раз, когда возникает какая-либо ситуация, в которой существует любая из вышеперечисленных возможностей, в игру вступает эго меча. Оно всегда проявляется в его отношениях с пользователем, хотя истинное взаимопонимание может быть достигнуто, если мировоззрение и цели пользователя совпадают с происхождением/предназначением меча. Определение каждого из этих факторов осуществляется следующим образом:
 
-Influence of Egoism in Key Situations: The referee adds the Intelligence and the Egoism of the sword (from 8–24 factors), and adds an extra 1 for every Extraordinary Ability (from 1–4 if applicable). This total (8–28) is compared to the total of the character’s Intelligence and Strength (6–36) modified by a variable based upon the physical state of the user. If the character is fresh and relatively free from damage (less than 10% damaged) from 1–6 points are added to his total (from 7–42 then possible). If mentally and/or physically fatigued, or if damage between 10% to 50% has been sustained, from 1–4 points are deducted (from 2–35 then possible). If damage over 50% has been sustained, or the character has been under a severe mental strain from some form of magic, from 2–8 points are deducted (from 0–34 then possible).
+**Влияние эго в ключевых ситуациях:** ведущий складывает интеллект и эго меча и прибавляет дополнительные 1 за каждую экстраординарную способность. Эта сумма сравнивается с общим значением интеллекта и силы персонажа, корректируемой физическим состоянием пользователя. Если персонаж свеж и почти не ранен (повреждено менее 10%), к его сумме добавляется к6 очков. В случае умственной и/или физической усталости, или если он был ранен (повреждено от 10% до 50%), вычитается к4 очка. Если персонаж сильно ранен (повреждено более 50%) или персонаж подвергся сильному умственному перенапряжению из-за какой-либо формы магии, вычитается 2к4 очков.
 
-Difference Result
-6 or more Higher score prevails
-2–5 75% chance the higher score will prevail
-0–1 50% either way
+| Разница     | Результат                                        |
+| ----------- | ------------------------------------------------ |
+| 6 или более | Преобладает более высокое значение               |
+| 2--5        | Шанс 75%, что преобладает более высокое значение |
+| 0--1        | Шансы победы 50 на 50                            | 
 
-Egoism in Continuing Relationship with the User: This determination is quite simple, being only a matter of comparing the Egoism score of the sword (1–12) with the level of the Fighting- Man using it. Consult the table used for Key Situations above. If either party has a positive difference of 6 or more that party will always prevail and no other checks (including Key Situations) need be made. A positive difference of 2–5 will indicate that the higher party generally prevails, and checks will only have to be made in Key Situations. A difference of 0–1 indicates a continuing struggle between the sword and its user, and during any stress situation both should be checked as to which will prevail.
+**Эго в продолжающихся отношениях с пользователем:** это определение довольно простое, поскольку заключается всего лишь в сравнении показателя эго меча (1-12) с уровнем бойца, использующего его. Обратитесь к таблице, использованной для приведенных выше ключевых ситуаций. Если у любой из сторон положительная разница в 6 очков или более, то эта сторона всегда будет иметь преимущество, и никаких других проверок (включая ключевые ситуации) проводить не нужно. Положительная разница в 2--5 очков будет указывать на то, что вышестоящая сторона, как правило, одерживает верх, и проверки необходимо будет проводить только в ключевых ситуациях. Разница 0--1 указывает на продолжающуюся борьбу между мечом и его владельцем, и во время любой стрессовой ситуации оба должны быть проверены, кто из них одержит верх.
 
 #### Происхождение/предназначение 
 
-Naturally, the origin of each sword is either Law, Neutrality, or Chaos, but some of these weapons are forged by more powerful forces for an express purpose. To determine if any sword has such a purpose, roll percentile dice, and a score of 91 or higher indicates the sword has a special mission. Swords with special purposes automatically have intelligence and ego categories moved to the maximum score and they will gain an additional ability:
+Естественно, происхождение каждого меча связано либо с порядком, либо с нейтралитетом, либо с хаосом, но некоторые из этих видов оружия выкованы более могущественными силами для определённой цели. Чтобы определить, имеет ли какой-либо меч такое предназначение, бросьте к100, и значение 91 или выше укажет на то, что у меча есть особая миссия. У мечей с предназначением показатели интеллекта и эго автоматически повышаются до максимального значение, и они получают дополнительную способность:
 
-Law: The ability to paralyze Chaotic opponents
-Neutrality: Adds +1 to all saving throws
-Chaos: The ability to disintegrate Lawful opponents
+Порядок: способность парализовать хаотичных противников  
+Нейтралитет: бонус +1 ко всем спасброскам  
+Хаос: способность дезинтегрировать порядочного противника
 
-The special ability will only apply to those whom the sword has been endowed to destroy, or those serving such a creature.
+Особая способность будет применяться только к тем, кого меч был создан уничтожать, или к тем, кто служит таким существам.
 
-Purposes:
+Предназначение:
 
-Slay Magic-Users Slay Fighting-Men Defeat Law
-Slay Clerics Slay Monsters Defeat Chaos
+- Убийство чародеев
+- Убийство бойцов
+- Победить порядок
+- Убийство жрецов
+- Убийство монстров
+- Победить хаос
 
-Thus a Lawfully endowed sword for the purpose of slaying (Chaotic) Magic-Users would paralyze magical types and their minions, but it would not use its paralyzation power on some wandering Giant. The general purpose swords, however, would use their powers to defeat any opponent of Lawful/Chaotic nature. Neutral special purpose swords will act against either Law or Chaos equally. Special purpose swords will always be at their task, and any attempts by their users to go counter to them will cause an immediate influence check to be made.
-
+При этом, меч порядка с предназначением убийства (хаотичных) чародеев парализовал бы магов и их приспешников, но не использовал бы свою парализующую силу на каком-нибудь блуждающем гиганте. Мечи с более общим предназначением --- победить --- использовали бы свои силы, чтобы победить любого противника выбранного мировоззрения. Нейтральные мечи будут одинаково действовать как против порядка, так и против хаоса. Мечи с предназначением всегда будут выполнять свою задачу, и любые попытки их пользователей пойти им наперекор приведут к немедленной проверке влияния.
 
 ### Доспехи
 
-Armor proper subtracts its bonus from the hit dice of the opponents of its wearer. If the shield’s bonus is greater than that of the armor there is a one-third chance that the blow will be caught by the shield, thus giving the additional subtraction.
+Бонус доспеха вычитается из значения броска на попадания по нему противников. Если бонус на щите больше, чем на доспехе, то он применим лишь с шансом **2 из 6**.
 
 ### Прочее оружие
 
-Those with bonuses of +1, +2 or +3 gain a bonus of equal merit on damage scored, except as noted below.
+Бонусы +1, +2 или +3 прибавляются не только к броскам на попадание, но и к урону, кроме случаев описанных ниже.
 
-Magic Arrows have a +1 chance of hitting their target and do additional damage to their target unless specified otherwise due to the type of monster being shot. Thus, a Magic Arrow normally does from 2–7 points of damage when it hits.
+**Магические стрелы** имеют бонус +1 на попадание и урон, если не указано иного, например из-за типа монстра.
 
-Magic Bows give all arrows a +1 for hit probability, but they confer no damage bonus. A Magic Arrow shot from a Magic Bow has a +2 chance of hitting.
+**Магические луки** добавляют бонус +1 на попадание, но не к урону. Магическая стрела выпущенная из магического лука будет иметь бонус +2 на попадание.
 
-Axes can be utilized as a hand weapon or thrown 3” with the +1 bonus. Treat all targets as at medium range, i.e. there is neither short nor long range for this weapon.
+**Топоры** можно использовать как оружие ближнего боя или бросать на 3'' с бонусом +1. Бонус на попадание из-за дистанции также применим, считайте, что цель находится на средней дистанции.
 
-War Hammers of +1 and +2 can be hurled in the same manner as Axes. The Hammer +3 has double range (6”) only if being used by a Dwarf, and the same is true regarding its automatic return. Any other user of a +3 Hammer will throw it as if it were a +1 or +2 weapon as far as range is concerned, and it will not fly back to them. When used by a Dwarf it does two dice of damage, and when striking a Giant gains a damage bonus of +3 (5–15 damage points when a hit is scored). Otherwise it gains no damage bonus when striking, for it already does from 2–12 points of damage.
+**Боевые молоты** с бонусами +1 и +2 можно метать таким же образом, как и топоры. Молот+3 имеет двойную дальнобойность (6'') и возвращается в руку, но только в том случае, если им пользуется дворф. Любой другой пользователь молота+3 бросит его так, как если бы это было оружие с бонусами +1 или +2. При использовании дворфом он наносит 2к6 урона, а при нанесении урона гигантам --- 2к6+3 урона.
 
-Spears like Axes and Hammers can be hurled and receive a damage bonus of from 1 to 3 points. Additionally, if something impales itself upon the spear, damage will be double or even treble if the force is sufficient.
+**Копья**, также как топоры и молоты, можно метать и получать бонус к урону в размере от 1 до 3 очков. Кроме того, если что-то само насаживается на копьё, урон будет удвоен или даже утроен, если сила будет достаточной.
 
 ### Зелья
 
-All potions come in a quantity sufficient to perform whatever their end is, although a small sample can be taken without affecting the whole. For those with limited effect the time will be six turns plus the number of pips rolled on a sixsided die. Some potions will not be detailed here as they duplicate magic already explained or are self-explanatory.
+Зелье можно пригубить, чтобы понять, что оно делает. Если это яд, он действует в полную силу, но спасбросок от яда делается с бонусом +4 к броску. Эффект зелья длится **к6+6** ходов (ведущий кидает в закрытую).
+
+%%С шансом **2 из 6** на зелье может быть этикетка. С шансом **1 из 20** этикетка может быть ложной.%%
 
 ### Свитки
 
