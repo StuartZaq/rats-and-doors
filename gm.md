@@ -317,8 +317,8 @@ geometry: margin=1in
 | 5     | Curate          | Evil Curate            |
 | 6     | Bishop          | Evil Bishop            |
 | 7     | Lama            | Evil Lama              |
-| 8     | Жрец порядка (8 ур.)       | Жрец хаоса (8 ур.)       |
-| 9     | Жрец порядка (8 ур.), 9th  | Жрец хаоса (8 ур.), 9th  |
-| 10    | Жрец порядка (8 ур.), 10th | Жрец хаоса (8 ур.), 10th |
+| 8     | Patriarch       | Evil High Priest       |
+| 9     | Patriarch, 9th  | Evil High Priest, 9th  | 
+| 10    | Patriarch, 10th | Evil High Priest, 10th |
 
 
