@@ -10,7 +10,8 @@ geometry: margin=1in
 
 \newpage
 
-\tableofcontents	
+\setcounter{tocdepth}{2}
+\tableofcontents
 
 \newpage
 
