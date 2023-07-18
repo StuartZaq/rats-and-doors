@@ -24,4 +24,4 @@ MiKTeX-XETEX 4.10.0 (0.999995) (MiKTeX 23.5)
 
 Например:
 
-`pandoc -V lang=ru -V block-headings --pdf-engine=xelatex rules.md -s -o "Rats and Doors Rules.pdf"`
+`pandoc -V lang=ru -V block-headings --pdf-engine=xelatex rules.md -s -o "Rats and Doors ver.0.91.pdf"`
