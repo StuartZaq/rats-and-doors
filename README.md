@@ -1,6 +1,6 @@
 # Крысы и двери
 
-Здесь вы найдёте правила ретроклона 0e (нулевой или оригинальной редации) D&D.
+Здесь вы найдёте правила ретроклона 0e (нулевой или оригинальной редакции) D&D.
 
 Раннее рабочие название пройекта --- "Исследуй, грабь, убегай..."
 
@@ -12,7 +12,7 @@
 pandoc 3.1.2  
 MiKTeX-XETEX 4.10.0 (0.999995) (MiKTeX 23.5)
 
-ПДФки сделаны из .md файлов с помощью терминала и команды
+PDF сделаны из .md файлов с помощью терминала и команды:
 
 `pandoc -V lang=ru -V block-headings --pdf-engine=xelatex %file_name%.md -s -o %file_name%.pdf`
 
@@ -24,4 +24,4 @@ MiKTeX-XETEX 4.10.0 (0.999995) (MiKTeX 23.5)
 
 Например:
 
-`pandoc -V lang=ru -V block-headings --pdf-engine=xelatex rules.md -s -o "Rats and Doors ver.0.91.pdf"`
+`pandoc -V lang=ru -V block-headings --pdf-engine=xelatex rules.md -s -o "Rats and Doors ver.0.935.pdf"`
