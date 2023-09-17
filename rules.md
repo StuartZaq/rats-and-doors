@@ -1,6 +1,6 @@
 ---
 title: Крысы и двери
-subtitle: Версия 0.935
+subtitle: Версия 0.94
 author: StuartZaq
 date: \today
 mainfont: Futura PT
