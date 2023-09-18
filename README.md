@@ -24,4 +24,4 @@ PDF сделаны из .md файлов с помощью терминала и
 
 Например:
 
-`pandoc -V lang=ru -V block-headings --pdf-engine=xelatex rules.md -s -o "Rats and Doors ver.0.935.pdf"`
+`pandoc -V lang=ru -V block-headings --pdf-engine=xelatex rules.md -s -o "Rats and Doors ver.0.94.pdf"`
