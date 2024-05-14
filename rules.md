@@ -1,11 +1,19 @@
 ---
 title: Крысы и двери
-subtitle: Версия 0.94
+subtitle: Версия 0.95
 author: StuartZaq
 date: \today
 mainfont: Futura PT
 papersize: b5
 geometry: margin=1in
+lang: RU-ru
+block-headings: true
+colorlinks: true
+linkcolor: blue
+urlcolor: red
+toccolor: gray
+listcolor: gray
+filecolor: magenta
 ---
 
 Спасибо всем моим игрокам, тестировавшим \<\<Исследуй, грабь, убегай...\>\> и \<\<Крысы и двери\>\>! Отдельное спасибо игровой группе из agentgoblin и essencefromstars, thuoi, slephds и consolamentum, а также помогавшим в осознании оригинальных правил CyTheRabbit, thuoi и остальным!

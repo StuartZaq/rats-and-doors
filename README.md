@@ -12,14 +12,6 @@ MiKTeX-XETEX 4.10.0 (0.999995) (MiKTeX 23.5)
 
 PDF сделаны из .md файлов с помощью терминала и команды:
 
-`pandoc -V lang=ru -V block-headings --pdf-engine=xelatex %file_name%.md -s -o %file_name%.pdf`
-
-`- V lang=ru` добавлено, чтобы заголовок содержания был написан по-русски, а части слов, не влезающие в строку, переносились на следующую, т.е. работали правила переноса русского языка.
-
-`-V block-headings` добавлено, чтобы заголовок содержания был написан по-русски, а части слов, не влезающие в строку, переносились на следующую, т.е. работали правила переноса русского языка.
+`pandoc --pdf-engine=xelatex rules.md -s -o "Rats and Doors ver.0.95.pdf"`
 
 `--pdf-engine=xelatex` добавлено чтобы терминал/pandoc поняли кириллические символы в .md файлах. 
-
-Например:
-
-`pandoc -V lang=ru -V block-headings --pdf-engine=xelatex rules.md -s -o "Rats and Doors ver.0.94.pdf"`
