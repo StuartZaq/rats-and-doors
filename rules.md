@@ -1,6 +1,6 @@
 ---
 title: Крысы и двери
-subtitle: Версия 0.95
+subtitle: Версия 0.96
 author: StuartZaq
 date: \today
 mainfont: Futura PT
@@ -16,7 +16,7 @@ listcolor: gray
 filecolor: magenta
 ---
 
-Спасибо всем моим игрокам, тестировавшим \<\<Исследуй, грабь, убегай...\>\> и \<\<Крысы и двери\>\>! Отдельное спасибо игровой группе из agentgoblin и essencefromstars, thuoi, slephds и consolamentum, а также помогавшим в осознании оригинальных правил CyTheRabbit, thuoi и остальным!
+Спасибо всем моим игрокам, тестировавшим \<\<Исследуй, грабь, убегай...\>\> и \<\<Крысы и двери\>\>! Отдельное спасибо игровой группе из agentgoblin и essencefromstars, thuoi, slephds и consolamentum, а также помогавшим в осознании оригинальных правил CyTheRabbit, thuoi и остальным! Также хочу поблагодарить заядлых тестировщиков: rbetra, DioxiT925, undefinedOkto, dop_hopper, oozemancer, Sef_ful, Ransvind.
 
 \newpage
 
