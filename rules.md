@@ -18,6 +18,8 @@ filecolor: magenta
 
 Спасибо всем моим игрокам, тестировавшим \<\<Исследуй, грабь, убегай...\>\> и \<\<Крысы и двери\>\>! Отдельное спасибо игровой группе из agentgoblin и essencefromstars, thuoi, slephds и consolamentum, а также помогавшим в осознании оригинальных правил CyTheRabbit, thuoi и остальным! Также хочу поблагодарить заядлых тестировщиков: rbetra, DioxiT925, undefinedOkto, dop_hopper, oozemancer, Sef_ful, Ransvind.
 
+Версия правил 0.96 является наиболее близкой к пересказу оригинальной версии D&D. В последующих версиях КиД добавлены хоумрулы.
+
 \newpage
 
 \setcounter{tocdepth}{2}
