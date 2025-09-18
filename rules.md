@@ -1,6 +1,6 @@
 ---
 title: Крысы и двери
-subtitle: Версия 0.96
+subtitle: Версия 0.97
 author: StuartZaq
 date: \today
 mainfont: Futura PT
@@ -16,9 +16,9 @@ listcolor: gray
 filecolor: magenta
 ---
 
-Спасибо всем моим игрокам, тестировавшим \<\<Исследуй, грабь, убегай...\>\> и \<\<Крысы и двери\>\>! Отдельное спасибо игровой группе из agentgoblin и essencefromstars, thuoi, slephds и consolamentum, а также помогавшим в осознании оригинальных правил CyTheRabbit, thuoi и остальным! Также хочу поблагодарить заядлых тестировщиков: rbetra, DioxiT925, undefinedOkto, dop_hopper, oozemancer, Sef_ful, Ransvind.
+Спасибо всем моим игрокам, тестировавшим \<\<Исследуй, грабь, убегай...\>\> и \<\<Крысы и двери\>\>! Отдельное спасибо игровой группе из agentgoblin и essencefromstars, thuoi, slephds и consolamentum, людям, помогавшим в осознании оригинальных правил: CyTheRabbit, thuoi,  заядлым тестировщикам: rbetra, DioxiT925, undefinedOkto, dop_hopper, oozemancer, Sef_ful, Ransvind.
 
-Версия правил 0.96 является наиболее близкой к пересказу оригинальной версии D&D. В последующих версиях КиД добавлены хоумрулы.
+Перед вами версия 0.97, включающая хоумрулы. Версия правил 0.96 является наиболее близкой к пересказу оригинальной версии D&D.
 
 \newpage
 
