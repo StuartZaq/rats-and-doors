@@ -9,11 +9,14 @@
 
 # Pandoc
 
-pandoc 3.6.2  
-XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021)
+pandoc 2.14.2
+XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)
+pdfTeX 3.14159265-2.6-1.40.21 (TeX Live 2020)
 
 PDF сделаны из .md файлов с помощью терминала и команды:
 
-`pandoc --pdf-engine=xelatex rules.md -s -o "Rats and Doors ver.0.96.pdf"`
+`pandoc --pdf-engine=xelatex rules.md -s -o "Rats and Doors ver.0.97.pdf"`
 
 `--pdf-engine=xelatex` добавлено чтобы терминал/pandoc поняли кириллические символы в .md файлах. 
+
+Шрифт Futura PT подойдёт с расширенным кол-вом символов, иначе кавычки-ёлочки могут не отрисоваться. В YAML части .md файлов вы можете поменять шрифт на другой.
