@@ -1,0 +1,12 @@
+mainfont: Futura PT
+papersize: b5
+geometry: margin=1in
+lang: RU-ru
+
+block-headings: true
+colorlinks: true
+linkcolor: blue
+urlcolor: red
+toccolor: gray
+listcolor: gray
+filecolor: magenta

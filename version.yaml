@@ -1,0 +1,3 @@
+header-includes:
+  - \newcommand{\version}{0.98}
+date: \today
