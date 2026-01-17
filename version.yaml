@@ -1,3 +1,5 @@
 header-includes:
   - \newcommand{\version}{0.98}
+  - \usepackage{hyperref}
+  - \hypersetup{bookmarksdepth=3}
 date: \today

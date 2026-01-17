@@ -4,14 +4,22 @@ subtitle: Основные правила
 author: StuartZaq
 ---
 
-Спасибо всем моим игрокам, тестировавшим \<\<Исследуй, грабь, убегай...\>\> и \<\<Крысы и двери\>\>! Отдельное спасибо игровой группе из agentgoblin и essencefromstars, thuoi, slephds и consolamentum, людям, помогавшим в осознании оригинальных правил: CyTheRabbit, thuoi,  заядлым тестировщикам: rbetra, DioxiT925, undefinedOkto, dop_hopper, oozemancer, Sef_ful, Ransvind.
+\setcounter{tocdepth}{2}
 
-Перед вами версия 0.97, включающая хоумрулы. Версия правил 0.96 является наиболее близкой к пересказу оригинальной версии D&D.
+```{=latex}
+\begingroup
+\small
+\tableofcontents
+\endgroup
+```
 
 \newpage
 
-\setcounter{tocdepth}{2}
-\tableofcontents
+# Благодарности
+
+Спасибо всем моим игрокам, тестировавшим \<\<Исследуй, грабь, убегай...\>\> и \<\<Крысы и двери\>\>! Отдельное спасибо игровой группе из agentgoblin и essencefromstars, thuoi, slephds и consolamentum, людям, помогавшим в осознании оригинальных правил: CyTheRabbit, thuoi,  заядлым тестировщикам: rbetra, DioxiT925, undefinedOkto, dop_hopper, oozemancer, Sef_ful, Ransvind.
+
+Перед вами версия 0.97, включающая хоумрулы. Версия правил 0.96 является наиболее близкой к пересказу оригинальной версии D&D.
 
 \newpage
 

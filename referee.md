@@ -4,8 +4,14 @@ subtitle: Книга рефери
 author: StuartZaq
 ---
 
-\setcounter{tocdepth}{3}
+\setcounter{tocdepth}{2}
+
+```{=latex}
+\begingroup
+\small
 \tableofcontents
+\endgroup
+```
 
 \newpage
 
