@@ -8,7 +8,7 @@ PDF_ENGINE="xelatex"
 BASE_NAME="Rats_and_Doors"
 
 # --- Список файлов ---
-FILES=("rules.md" "spells.md" "optionals.md" "referee.md" "castles.md")
+FILES=("rules.md" "spells.md" "optionals.md" "referee.md" "monsters.md" "treasures.md" "castles.md")
 
 # --- Цикл сборки ---
 for MD_FILE in "${FILES[@]}"; do
@@ -25,6 +25,12 @@ for MD_FILE in "${FILES[@]}"; do
             ;;
         "referee.md")
             OUT="${BASE_NAME}_ver.${VERSION}_Referee.pdf"
+            ;;
+        "monsters.md")
+            OUT="${BASE_NAME}_ver.${VERSION}_Monsters.pdf"
+            ;;
+        "treasures.md")
+            OUT="${BASE_NAME}_ver.${VERSION}_Treasures.pdf"
             ;;
         "castles.md")
             OUT="${BASE_NAME}_ver.${VERSION}_Castles.pdf"
